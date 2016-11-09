@@ -30,9 +30,10 @@
 		</style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
-$( "#div1" ).click(function() {
-  alert( "Handler for .click() called." );
-	 $( this ).hide();
+$(document).ready(function(){
+		$("#div1").click(function(){
+			$("div1").hide();
+		});
 });
 </script>
 
@@ -41,7 +42,8 @@ $( "#div1" ).click(function() {
 <body>
 	<h1>my name is jiawei. I like to eat ice cream. Sometimes i eat noodles. My favorie noodle are pho noodles that
 	are normally sold in vietnamese noodle stores. I also play some games. Now I am in my first year of college. Basketball and hockey
-	are pretty good sports. I enjoy hanging out with friends and relaxing.</h1>
+	are pretty good sports. I enjoy hanging out with friends and relaxing. The frist part is the thing youre clicking on, the second 
+	part the thing you would actually want to hide.</h1>
 		<h1 id = "wat">
 			<div id = "div1">also one of my favorite websites is called reddit.<div/>
 			<a href="https://www.reddit.com/">
